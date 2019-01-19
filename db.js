@@ -1,62 +1,54 @@
 export const videos = [
   {
-    id: 11111,
+    id: 324393,
     title: 'Video awesome',
-    description: 'This is comethig I love',
+    description: 'This is something I love',
     views: 24,
-    videoFile: 'https://archive.org/details/BigBuckBunny_124',
+    videoFile:
+      'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',
     creator: {
-      id: 11111,
-      name: 'Enzyme',
-      email: 'Enzyme@email.com'
+      id: 121212,
+      name: 'Nicolas',
+      email: 'nico@las.com'
     }
   },
   {
-    id: 22222,
-    title: 'Video awesome',
-    description: 'This is comethig I love',
+    id: 1212121,
+    title: 'Video super',
+    description: 'This is something I love',
     views: 24,
-    videoFile: 'https://archive.org/details/BigBuckBunny_124',
+    videoFile:
+      'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',
     creator: {
-      id: 11112,
-      name: 'Enzyme',
-      email: 'Enzyme@email.com'
-    }
-  },
-  {
-    id: 33333,
-    title: 'Video awesome',
-    description: 'This is comethig I love',
-    views: 24,
-    videoFile: 'https://archive.org/details/BigBuckBunny_124',
-    creator: {
-      id: 11113,
-      name: 'Enzyme',
-      email: 'Enzyme@email.com'
-    }
-  },
-  {
-    id: 44444,
-    title: 'Video awesome',
-    description: 'This is comethig I love',
-    views: 24,
-    videoFile: 'https://archive.org/details/BigBuckBunny_124',
-    creator: {
-      id: 11114,
-      name: 'Enzyme',
-      email: 'Enzyme@email.com'
+      id: 121212,
+      name: 'Nicolas',
+      email: 'nico@las.com'
     }
   },
   {
     id: 55555,
-    title: 'Video awesome',
-    description: 'This is comethig I love',
+    title: 'Video nice',
+    description: 'This is something I love',
     views: 24,
-    videoFile: 'https://archive.org/details/BigBuckBunny_124',
+    videoFile:
+      'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',
     creator: {
-      id: 11115,
-      name: 'Enzyme',
-      email: 'Enzyme@email.com'
+      id: 121212,
+      name: 'Nicolas',
+      email: 'nico@las.com'
+    }
+  },
+  {
+    id: 11111,
+    title: 'Video perfect',
+    description: 'This is something I love',
+    views: 24,
+    videoFile:
+      'https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',
+    creator: {
+      id: 121212,
+      name: 'Nicolas',
+      email: 'nico@las.com'
     }
   }
 ];
