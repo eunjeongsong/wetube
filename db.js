@@ -14,16 +14,3 @@ const handleError = error => console.log(`❌ Error on DB Connection: ${error}`)
 
 db.once('open', handleOpen);
 db.on('error', handleError);
-
-const Video = mongoose.model('Video', {
-  id: String,
-  title: String,
-  description: String,
-  views: String,
-  videoFile: String,
-  creator: {
-    id: String,
-    name: String,
-    email: String
-  }
-});
