@@ -35,7 +35,7 @@ const routes = {
   upload: UPLOAD,
   videoDetail: id => {
     if (id) return `/videos/${id}`;
-    else VIDEO_DETAIL;
+    else return VIDEO_DETAIL;
   },
   editVideo: EDIT_VIDEO,
   deleteVideo: DELETE_VIDEO
