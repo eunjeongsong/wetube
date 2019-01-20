@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import routes from './routes';
 import { userRouter, videoRouter, globalRouter } from './routers';
-import { localsMiddleware } from './middleware';
+import { localsMiddleware } from './middlewares';
 
 const app = express();
 
