@@ -8,4 +8,4 @@ block content
         if videos.length === 0
             h5 No Videos Found
         each item in videos
-            +videoBlock({ title, views, videoFile } = item)
+            +videoBlock({ id, title, views, videoFile } = item)
