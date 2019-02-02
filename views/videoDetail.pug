@@ -1,5 +1,6 @@
 extends layouts/main
+include mixins/videoBlock
 
 block content  
-    .video-container
-        h2=`video details`
+    .video-detail__container
+        videoBlock(id)
